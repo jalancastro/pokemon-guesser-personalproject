@@ -12,7 +12,8 @@ public class Driver {
 
         Scanner scan = new Scanner(System.in);
 
-        // 10111
+        // Gen I
+        // 1011101
 
         HashMap charmander = new HashMap();
         charmander.put("name", "Charmander");
@@ -22,8 +23,9 @@ public class Driver {
         charmander.put("nails", y);
         charmander.put("teeth", y);
         charmander.put("shell", n);
+        charmander.put("sphereHead", y);
 
-        // 00111
+        // 0011100
 
         HashMap bulbasaur = new HashMap();
         bulbasaur.put("name", "Bulbasaur");
@@ -33,8 +35,9 @@ public class Driver {
         bulbasaur.put("nails", y);
         bulbasaur.put("teeth", y);
         bulbasaur.put("shell", n);
+        bulbasaur.put("sphereHead", n);
 
-        // 10100
+        // 1010011
 
         HashMap squirtle = new HashMap();
         squirtle.put("name", "Squirtle");
@@ -44,8 +47,10 @@ public class Driver {
         squirtle.put("nails", n);
         squirtle.put("teeth", n);
         squirtle.put("shell", y);
+        squirtle.put("sphereHead", y);
 
-        // 01110
+        // Gen II
+        // 011100
 
         HashMap chikorita = new HashMap();
         chikorita.put("name", "Chikorita");
@@ -55,8 +60,9 @@ public class Driver {
         chikorita.put("nails", y);
         chikorita.put("teeth", n);
         chikorita.put("shell", n);
+        chikorita.put("sphereHead", n);
 
-        // 00010
+        // 000100
 
         HashMap cyndaquil = new HashMap();
         cyndaquil.put("name", "Cyndaquil");
@@ -66,8 +72,9 @@ public class Driver {
         cyndaquil.put("nails", y);
         cyndaquil.put("teeth", n);
         cyndaquil.put("shell", n);
+        cyndaquil.put("sphereHead", n);
 
-        // 10101
+        // 1010100
 
         HashMap totodile = new HashMap();
         totodile.put("name", "Totodile");
@@ -77,8 +84,10 @@ public class Driver {
         totodile.put("nails", n);
         totodile.put("teeth", y);
         totodile.put("shell", n);
+        totodile.put("sphereHead", n);
 
-        // 101000
+        // Gen III
+        // 1010000
 
         HashMap treecko = new HashMap();
         treecko.put("name", "Treecko");
@@ -88,8 +97,9 @@ public class Driver {
         treecko.put("nails", n);
         treecko.put("teeth", n);
         treecko.put("shell", n);
+        treecko.put("sphereHead", n);
 
-        // 110100
+        // 1101001
 
         HashMap torchic = new HashMap();
         torchic.put("name", "Torchic");
@@ -99,8 +109,9 @@ public class Driver {
         torchic.put("nails", y);
         torchic.put("teeth", n);
         torchic.put("shell", n);
+        torchic.put("sphereHead", y);
 
-        // 00000
+        // 000000
 
         HashMap mudkip = new HashMap();
         mudkip.put("name", "Mudkip");
@@ -110,6 +121,58 @@ public class Driver {
         mudkip.put("nails", n);
         mudkip.put("teeth", n);
         mudkip.put("shell", n);
+        mudkip.put("sphereHead", n);
+
+        // Gen IV
+        //011001
+
+        HashMap turtwig = new HashMap();
+        turtwig.put("name", "Turtwig");
+        turtwig.put("twoLegs", n);
+        turtwig.put("hair", y);
+        turtwig.put("coloredEyes", y);
+        turtwig.put("nails", n);
+        turtwig.put("teeth", n);
+        turtwig.put("shell", y);
+        turtwig.put("sphereHead", n);
+
+        // 1110000
+
+        HashMap chimchar = new HashMap();
+        chimchar.put("name", "Chimchar");
+        chimchar.put("twoLegs", y);
+        chimchar.put("hair", y);
+        chimchar.put("coloredEyes", y);
+        chimchar.put("nails", n);
+        chimchar.put("teeth", n);
+        chimchar.put("shell", n);
+        chimchar.put("sphereHead", n);
+
+        // 1010001
+
+        HashMap piplup = new HashMap();
+        chimchar.put("name", "Piplup");
+        chimchar.put("twoLegs", y);
+        chimchar.put("hair", n);
+        chimchar.put("coloredEyes", y);
+        chimchar.put("nails", n);
+        chimchar.put("teeth", n);
+        chimchar.put("shell", n);
+        piplup.put("sphereHead", y);
+
+        // Gen V
+        // 1010000
+
+        /* FIX ME
+        HashMap snivy = new HashMap();
+        chimchar.put("name", "Snivy");
+        chimchar.put("twoLegs", y);
+        chimchar.put("hair", n);
+        chimchar.put("coloredEyes", y);
+        chimchar.put("nails", n);
+        chimchar.put("teeth", n);
+        chimchar.put("shell", n);
+        piplup.put("sphereHead", n); */
 
         ArrayList database = new ArrayList();
         database.add(charmander);
@@ -121,6 +184,9 @@ public class Driver {
         database.add(treecko);
         database.add(torchic);
         database.add(mudkip);
+        database.add(turtwig);
+        database.add(chimchar);
+        database.add(piplup);
 
         System.out.println("Welcome to the Pokemon Beginner Guessing Game!");
         System.out.println("----------------------------------------------\n");
@@ -132,7 +198,7 @@ public class Driver {
         System.out.println("Does your Pokemon walk on two legs?");
         TakeInput(scan.nextInt(), "twoLegs", database);
 
-        System.out.println("Does your Pokemon have hair on top of their head?");
+        System.out.println("Does your Pokemon have hair, or something that represents hair, on top of their head?");
         TakeInput(scan.nextInt(), "hair", database);
 
         System.out.println("Does your Pokemon have colored eyes (aside from black/white)?");
@@ -146,6 +212,9 @@ public class Driver {
 
         System.out.println("Does your Pokemon have a shell?");
         TakeInput(scan.nextInt(), "shell", database);
+
+        System.out.println("Does your Pokemon have spherical shaped head?");
+        TakeInput(scan.nextInt(), "sphereHead", database);
 
     }
 
