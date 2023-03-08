@@ -144,6 +144,9 @@ public class Driver {
         System.out.println("Does your Pokemon have teeth (even if only 1 or 2)?");
         TakeInput(scan.nextInt(), "teeth", database);
 
+        System.out.println("Does your Pokemon have a shell?");
+        TakeInput(scan.nextInt(), "shell", database);
+
     }
 
     public static void TakeInput(int answer, String property, ArrayList database) {
