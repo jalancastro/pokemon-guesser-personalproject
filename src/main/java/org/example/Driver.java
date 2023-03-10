@@ -151,13 +151,13 @@ public class Driver {
         // 1010001
 
         HashMap piplup = new HashMap();
-        chimchar.put("name", "Piplup");
-        chimchar.put("twoLegs", y);
-        chimchar.put("hair", n);
-        chimchar.put("coloredEyes", y);
-        chimchar.put("nails", n);
-        chimchar.put("teeth", n);
-        chimchar.put("shell", n);
+        piplup.put("name", "Piplup");
+        piplup.put("twoLegs", y);
+        piplup.put("hair", n);
+        piplup.put("coloredEyes", y);
+        piplup.put("nails", n);
+        piplup.put("teeth", n);
+        piplup.put("shell", n);
         piplup.put("sphereHead", y);
 
         // Gen V
