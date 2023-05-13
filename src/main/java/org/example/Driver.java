@@ -229,8 +229,10 @@ public class Driver {
         System.out.println("Welcome to the Pokemon Beginner Guessing Game!");
         System.out.println("----------------------------------------------\n");
 
-        System.out.println("I will ask you a series of questions to guess your favorite beginner,\n " +
-                "and you will answer by typing '1' for Yes, or '2' for No.");
+        System.out.println("I will ask you a series of questions to guess your favorite beginner,\n" +
+                "and you will answer by typing '1' for Yes, or '2' for No.\n" +
+                "I recommend having an image of your beginner on hand!\n\n" +
+                "Ready? (1 - Yes, 2 - No)");
         System.out.println("");
 
         while (scan.nextInt() != 0) {
