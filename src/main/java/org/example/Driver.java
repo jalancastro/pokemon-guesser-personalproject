@@ -13,7 +13,7 @@ public class Driver {
         Scanner scan = new Scanner(System.in);
 
         // Gen I
-        // 1011101
+        // 10111011
 
         HashMap charmander = new HashMap();
         charmander.put("name", "Charmander");
@@ -24,8 +24,9 @@ public class Driver {
         charmander.put("teeth", y);
         charmander.put("shell", n);
         charmander.put("sphereHead", y);
+        charmander.put("individualToes", y);
 
-        // 0011100
+        // 00111001
 
         HashMap bulbasaur = new HashMap();
         bulbasaur.put("name", "Bulbasaur");
@@ -36,8 +37,9 @@ public class Driver {
         bulbasaur.put("teeth", y);
         bulbasaur.put("shell", n);
         bulbasaur.put("sphereHead", n);
+        bulbasaur.put("individualToes", y);
 
-        // 1010011
+        // 10100111
 
         HashMap squirtle = new HashMap();
         squirtle.put("name", "Squirtle");
@@ -48,9 +50,10 @@ public class Driver {
         squirtle.put("teeth", n);
         squirtle.put("shell", y);
         squirtle.put("sphereHead", y);
+        squirtle.put("individualToes", y);
 
         // Gen II
-        // 011100
+        // 01110000
 
         HashMap chikorita = new HashMap();
         chikorita.put("name", "Chikorita");
@@ -61,8 +64,9 @@ public class Driver {
         chikorita.put("teeth", n);
         chikorita.put("shell", n);
         chikorita.put("sphereHead", n);
+        chikorita.put("individualToes", n);
 
-        // 000100
+        // 00010000
 
         HashMap cyndaquil = new HashMap();
         cyndaquil.put("name", "Cyndaquil");
@@ -73,8 +77,9 @@ public class Driver {
         cyndaquil.put("teeth", n);
         cyndaquil.put("shell", n);
         cyndaquil.put("sphereHead", n);
+        cyndaquil.put("individualToes", n);
 
-        // 1010100
+        // 10101001
 
         HashMap totodile = new HashMap();
         totodile.put("name", "Totodile");
@@ -85,9 +90,10 @@ public class Driver {
         totodile.put("teeth", y);
         totodile.put("shell", n);
         totodile.put("sphereHead", n);
+        totodile.put("individualToes", y);
 
         // Gen III
-        // 1010000
+        // 10100001
 
         HashMap treecko = new HashMap();
         treecko.put("name", "Treecko");
@@ -98,8 +104,9 @@ public class Driver {
         treecko.put("teeth", n);
         treecko.put("shell", n);
         treecko.put("sphereHead", n);
+        treecko.put("individualToes", y);
 
-        // 1101001
+        // 11010011
 
         HashMap torchic = new HashMap();
         torchic.put("name", "Torchic");
@@ -110,8 +117,9 @@ public class Driver {
         torchic.put("teeth", n);
         torchic.put("shell", n);
         torchic.put("sphereHead", y);
+        torchic.put("individualToes", y);
 
-        // 000000
+        // 0000001
 
         HashMap mudkip = new HashMap();
         mudkip.put("name", "Mudkip");
@@ -122,9 +130,10 @@ public class Driver {
         mudkip.put("teeth", n);
         mudkip.put("shell", n);
         mudkip.put("sphereHead", n);
+        mudkip.put("individualToes", y);
 
         // Gen IV
-        //011001
+        //0110010
 
         HashMap turtwig = new HashMap();
         turtwig.put("name", "Turtwig");
@@ -135,8 +144,9 @@ public class Driver {
         turtwig.put("teeth", n);
         turtwig.put("shell", y);
         turtwig.put("sphereHead", n);
+        turtwig.put("individualToes", n);
 
-        // 1110000
+        // 11100001
 
         HashMap chimchar = new HashMap();
         chimchar.put("name", "Chimchar");
@@ -147,8 +157,9 @@ public class Driver {
         chimchar.put("teeth", n);
         chimchar.put("shell", n);
         chimchar.put("sphereHead", n);
+        chimchar.put("individualToes", y);
 
-        // 1010001
+        // 10100011
 
         HashMap piplup = new HashMap();
         piplup.put("name", "Piplup");
@@ -159,20 +170,44 @@ public class Driver {
         piplup.put("teeth", n);
         piplup.put("shell", n);
         piplup.put("sphereHead", y);
+        piplup.put("individualToes", y);
 
         // Gen V
-        // 1010000
-
-        /* FIX ME
+        // 10100000
         HashMap snivy = new HashMap();
-        chimchar.put("name", "Snivy");
-        chimchar.put("twoLegs", y);
-        chimchar.put("hair", n);
-        chimchar.put("coloredEyes", y);
-        chimchar.put("nails", n);
-        chimchar.put("teeth", n);
-        chimchar.put("shell", n);
-        piplup.put("sphereHead", n); */
+        snivy.put("name", "Snivy");
+        snivy.put("twoLegs", y);
+        snivy.put("hair", n);
+        snivy.put("coloredEyes", y);
+        snivy.put("nails", n);
+        snivy.put("teeth", n);
+        snivy.put("shell", n);
+        snivy.put("sphereHead", n);
+        snivy.put("individualToes", n);
+
+        // 00000000
+        HashMap tepig = new HashMap();
+        tepig.put("name", "Tepig");
+        tepig.put("twoLegs", n);
+        tepig.put("hair", n);
+        tepig.put("coloredEyes", n);
+        tepig.put("nails", n);
+        tepig.put("teeth", n);
+        tepig.put("shell", n);
+        tepig.put("sphereHead", n);
+        tepig.put("individualToes", n);
+
+        // 10001011
+        HashMap oshawott = new HashMap();
+        oshawott.put("name", "Oshawott");
+        oshawott.put("twoLegs", y);
+        oshawott.put("hair", n);
+        oshawott.put("coloredEyes", n);
+        oshawott.put("nails", n);
+        oshawott.put("teeth", y);
+        oshawott.put("shell", n);
+        oshawott.put("sphereHead", y);
+        oshawott.put("individualToes", y);
 
         ArrayList database = new ArrayList();
         database.add(charmander);
@@ -187,6 +222,9 @@ public class Driver {
         database.add(turtwig);
         database.add(chimchar);
         database.add(piplup);
+        database.add(snivy);
+        database.add(tepig);
+        database.add(oshawott);
 
         System.out.println("Welcome to the Pokemon Beginner Guessing Game!");
         System.out.println("----------------------------------------------\n");
@@ -195,26 +233,33 @@ public class Driver {
                 "and you will answer by typing '1' for Yes, or '2' for No.");
         System.out.println("");
 
-        System.out.println("Does your Pokemon walk on two legs?");
-        TakeInput(scan.nextInt(), "twoLegs", database);
+        while (scan.nextInt() != 0) {
 
-        System.out.println("Does your Pokemon have hair, or something that represents hair, on top of their head?");
-        TakeInput(scan.nextInt(), "hair", database);
+            System.out.println("Does your Pokemon walk on two legs?");
+            TakeInput(scan.nextInt(), "twoLegs", database);
 
-        System.out.println("Does your Pokemon have colored eyes (aside from black/white)?");
-        TakeInput(scan.nextInt(), "coloredEyes", database);
+            System.out.println("Does your Pokemon have hair, or something that represents hair, on top of their head?");
+            TakeInput(scan.nextInt(), "hair", database);
 
-        System.out.println("Does your Pokemon have nails on their hands/feet?");
-        TakeInput(scan.nextInt(), "nails", database);
+            System.out.println("Does your Pokemon have colored eyes (aside from black/white)?");
+            TakeInput(scan.nextInt(), "coloredEyes", database);
 
-        System.out.println("Does your Pokemon have teeth (even if only 1 or 2)?");
-        TakeInput(scan.nextInt(), "teeth", database);
+            System.out.println("Does your Pokemon have nails on their hands/feet?");
+            TakeInput(scan.nextInt(), "nails", database);
 
-        System.out.println("Does your Pokemon have a shell?");
-        TakeInput(scan.nextInt(), "shell", database);
+            System.out.println("Does your Pokemon have teeth (even if only 1 or 2)?");
+            TakeInput(scan.nextInt(), "teeth", database);
 
-        System.out.println("Does your Pokemon have spherical shaped head?");
-        TakeInput(scan.nextInt(), "sphereHead", database);
+            System.out.println("Does your Pokemon have a shell?");
+            TakeInput(scan.nextInt(), "shell", database);
+
+            System.out.println("Does your Pokemon have spherical shaped head?");
+            TakeInput(scan.nextInt(), "sphereHead", database);
+
+            System.out.println("Does your Pokemon have individual toes/claws?");
+            TakeInput(scan.nextInt(), "individualToes", database);
+
+        }
 
     }
 
@@ -225,24 +270,23 @@ public class Driver {
 
         if (answer == 1) {
             ans = true;
-        }
-        else {
+        } else {
             ans = false;
         }
-        for (Object d: database){
+        for (Object d : database) {
             HashMap character = (HashMap) d;
-            boolean prop = (boolean)character.get(property);
+            boolean prop = (boolean) character.get(property);
             if (prop != ans) {
                 toRemove.add(character);
             }
         }
-        for (Object ch: toRemove) {
+        for (Object ch : toRemove) {
             database.remove(ch);
         }
         if (database.size() == 1) {
 
-            HashMap character = (HashMap)database.get(0);
-            String name = (String)character.get("name");
+            HashMap character = (HashMap) database.get(0);
+            String name = (String) character.get("name");
             System.out.println("Your favorite beginner Pokemon is: " + name);
             System.exit(0);
         }
