@@ -209,6 +209,43 @@ public class Driver {
         oshawott.put("sphereHead", y);
         oshawott.put("individualToes", y);
 
+        // Gen VI
+        // 11001011
+        HashMap chespin = new HashMap();
+        chespin.put("name", "Chespin");
+        chespin.put("twoLegs", y);
+        chespin.put("hair", y);
+        chespin.put("coloredEyes", n);
+        chespin.put("nails", n);
+        chespin.put("teeth", y);
+        chespin.put("shell", n);
+        chespin.put("sphereHead", y);
+        chespin.put("individualToes", y);
+
+        // 00101000
+        HashMap fennekin = new HashMap();
+        chespin.put("name", "Fennekin");
+        chespin.put("twoLegs", n);
+        chespin.put("hair", n);
+        chespin.put("coloredEyes", y);
+        chespin.put("nails", n);
+        chespin.put("teeth", y);
+        chespin.put("shell", n);
+        chespin.put("sphereHead", n);
+        chespin.put("individualToes", n);
+
+        // 00100001
+        HashMap froakie = new HashMap();
+        chespin.put("name", "Froakie");
+        chespin.put("twoLegs", n);
+        chespin.put("hair", n);
+        chespin.put("coloredEyes", y);
+        chespin.put("nails", n);
+        chespin.put("teeth", n);
+        chespin.put("shell", n);
+        chespin.put("sphereHead", n);
+        chespin.put("individualToes", y);
+
         ArrayList database = new ArrayList();
         database.add(charmander);
         database.add(bulbasaur);
@@ -225,6 +262,9 @@ public class Driver {
         database.add(snivy);
         database.add(tepig);
         database.add(oshawott);
+        database.add(chespin);
+        database.add(fennekin);
+        database.add(froakie);
 
         System.out.println("Welcome to the Pokemon Beginner Guessing Game!");
         System.out.println("----------------------------------------------\n");
